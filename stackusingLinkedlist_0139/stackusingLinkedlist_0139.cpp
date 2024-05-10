@@ -47,7 +47,11 @@ public:
 				cout << current->data << " " << endl;
 				current = current->next;
 			}
-
+			cout << endl;
 		}
+	}
+
+	boll isEmpty() {
+		return top == NULL;
 	}
 };
