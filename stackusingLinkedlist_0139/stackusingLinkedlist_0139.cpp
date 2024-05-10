@@ -38,6 +38,9 @@ public:
 	}
 
 	void peak() {
-		
+		if (top == NULL) {
+			cout << "List is empty." << endl;
+		}
+
 	}
 };
